@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 320px;
+  margin-top: 20px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  height: 50px;
+  border: 2px solid #212121;
+  border-radius: 8px;
+}

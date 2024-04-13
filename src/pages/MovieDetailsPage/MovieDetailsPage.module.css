@@ -1,0 +1,58 @@
+.container {
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonLink {
+  display: inline-block;
+  position: relative;
+  padding: 3px;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  outline: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.icon {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 40px;
+  height: 20px;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.list {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.link {
+  display: block;
+  color: blueviolet;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.isActive {
+  text-decoration: underline;
+}

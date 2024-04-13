@@ -1,0 +1,26 @@
+.form {
+  width: 320px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.field {
+  height: 50px;
+  border: 2px solid #212121;
+  border-radius: 8px;
+}
+
+.textRegister {
+  text-align: start;
+  text-decoration: underline;
+  color: blue;
+}
+
+.registerCont {
+  text-align: start;
+  margin-top: 15px;
+}
