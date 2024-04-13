@@ -1,8 +1,8 @@
 import { TextField } from "@mui/material";
 import css from "./SearchBox.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { selectNameFilter } from "../../../redux/filters/selectors";
-import { changeFilter } from "../../../redux/filters/slice";
+import { selectNameFilter } from "../../redux/filters/selectors";
+import { changeFilter } from "../../redux/filters/slice";
 
 export default function SearchBox() {
   const dispatch = useDispatch();
@@ -21,7 +21,7 @@ export default function SearchBox() {
         value={filter}
         onChange={handleFilterChange}
         variant="outlined"
-        />
-      </div>
+      />
+    </div>
   );
 }

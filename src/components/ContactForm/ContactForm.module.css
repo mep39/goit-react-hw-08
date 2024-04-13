@@ -48,10 +48,10 @@
 }
 
 .field {
-  height: 40px;
-  width: 400px;
+  /* height: 40px; */
+  width: 420px;
   margin-bottom: 15px;
-
+  padding: 10px;
   border: 1px solid #333333;
   border-radius: 5px;
 }

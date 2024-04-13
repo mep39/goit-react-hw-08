@@ -1,5 +1,5 @@
 import { Toaster } from "react-hot-toast";
-import AppBar from "../App/AppBar/AppBar";
+import AppBar from "./AppBar/AppBar";
 
 export default function Layout({ children }) {
   return (

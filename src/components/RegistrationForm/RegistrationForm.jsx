@@ -3,7 +3,7 @@ import { Formik, Form, Field } from "formik";
 import { useId } from "react";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
-import { register } from "../../../redux/auth/operations";
+import { register } from "../../redux/auth/operations";
 import css from "./RegistrationForm.module.css";
 
 export default function RegistrationForm() {

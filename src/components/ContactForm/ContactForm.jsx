@@ -3,7 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useId } from "react";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 import { TextField, Button } from "@mui/material";
 import toast from "react-hot-toast";
 
@@ -76,7 +76,7 @@ export default function ContactForm() {
           <ErrorMessage className={css.error} name="number" as="span" />
         </div>
 
-        <Buttonutton
+        <Button
           className={css.button}
           type="submit"
           variant="outlined"

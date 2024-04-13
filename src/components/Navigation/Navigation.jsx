@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button, Toolbar } from "@mui/material";
 import { styled } from "@mui/system";
-import useAuth from "../../../hooks/useAuth";
+import useAuth from "../../hooks/useAuth";
 
 const MyToolbar = styled(Toolbar)(({ theme }) => ({
   backgroundColor: theme.palette.main,

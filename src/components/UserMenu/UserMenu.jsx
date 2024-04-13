@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { logOut } from "../../../redux/auth/operations";
-import { selectUser } from "../../../redux/auth/selectors";
+import { logOut } from "../../redux/auth/operations";
+import { selectUser } from "../../redux/auth/selectors";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
